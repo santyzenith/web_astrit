@@ -16,7 +16,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Atrit Arévalo · Psicóloga Psicooncóloga | Azogues, Ecuador",
+  title: "Astrit Arévalo · Psicóloga Psicooncóloga | Azogues, Ecuador",
   description:
     "Psicóloga con maestría en Oncología. Acompañamiento emocional especializado para pacientes con cáncer y sus familias en Azogues, Ecuador. Atención presencial y online.",
   keywords: [
@@ -25,10 +25,10 @@ export const metadata: Metadata = {
     "psicología y cáncer",
     "apoyo emocional cáncer Ecuador",
     "Azogues psicóloga",
-    "Atrit Arévalo",
+    "Astrit Arévalo",
   ],
   openGraph: {
-    title: "Atrit Arévalo · Psicóloga Psicooncóloga",
+    title: "Astrit Arévalo · Psicóloga Psicooncóloga",
     description:
       "Acompañamiento psicológico especializado en oncología para pacientes y familias.",
     locale: "es_EC",

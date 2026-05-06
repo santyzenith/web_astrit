@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 /* ─── Navigation data ──────────────────────────────────── */
 const navLinks = [
@@ -108,7 +109,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <a href="#inicio" className="block">
             <p className="font-display italic text-xl text-charcoal leading-none">
-              Atrit Arévalo
+              Astrit Arévalo
             </p>
             <p className="font-sans text-[10px] uppercase tracking-[0.18em] text-warm-gray mt-0.5">
               Psicóloga · Psicooncología
@@ -246,21 +247,15 @@ export default function Home() {
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[380px] h-[420px] rounded-[60%_40%_55%_45%/50%_60%_40%_50%] bg-blush/60" />
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[390px] rounded-[55%_45%_60%_40%/45%_55%_45%_55%] border border-rose/20" />
 
-                {/* Photo container — replace inner div with <Image> when ready */}
+                {/* Photo */}
                 <div className="relative z-10 w-72 lg:w-80 aspect-[4/5] rounded-2xl overflow-hidden border border-border/60 shadow-xl">
-                  <div className="size-full bg-gradient-to-b from-blush/40 via-ivory-dim to-blush/20 flex flex-col items-center justify-center gap-5">
-                    <span className="font-display italic text-[6.5rem] text-rose/35 leading-none select-none">
-                      AA
-                    </span>
-                    <div className="text-center px-6">
-                      <p className="font-sans text-[11px] uppercase tracking-[0.22em] text-warm-gray/60">
-                        Tu fotografía aquí
-                      </p>
-                      <p className="font-sans text-[10px] text-warm-gray/40 mt-1.5">
-                        Medidas recomendadas: 400 × 500 px
-                      </p>
-                    </div>
-                  </div>
+                  <Image
+                    src="/astrit.jpeg"
+                    alt="Astrit Arévalo Sarmiento — Psicóloga Psicooncóloga"
+                    fill
+                    className="object-cover object-top"
+                    priority
+                  />
                 </div>
               </div>
             </div>
@@ -320,7 +315,7 @@ export default function Home() {
                     Sobre mí
                   </p>
                   <h2 className="font-display italic text-4xl lg:text-5xl text-charcoal leading-tight">
-                    Atrit Arévalo
+                    Astrit Arévalo
                     <br />
                     <span className="text-warm-gray/50">Sarmiento</span>
                   </h2>
@@ -644,7 +639,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <div>
             <p className="font-display italic text-base text-ivory/70">
-              Atrit Arévalo Sarmiento
+              Astrit Arévalo Sarmiento
             </p>
             <p className="font-sans text-[11px] text-ivory/30 mt-0.5">
               Psicóloga · Psicooncología · Azogues, Ecuador
